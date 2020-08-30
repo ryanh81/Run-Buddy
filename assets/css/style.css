@@ -38,7 +38,7 @@ header nav ul li a {
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40px; 35px;
+    padding: 40px 35px;
 }
 footer h2 {
     display: inline;
@@ -56,5 +56,5 @@ color: #024e76;
 }
 section {
     padding: 60px;
-    background-image: url("../C:\Users\ryanh\Desktop\projects\run-buddy\images");
+    background-image: url("../images/hero-bg.jpg");
 }
