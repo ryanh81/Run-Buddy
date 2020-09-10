@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
@@ -10,7 +16,7 @@ body {
   /* apply styles to <header> */
   header {
       padding: 20px 35px;
-      background-color: #39a6b2;
+      background-color: var(--tertiary-color);
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
